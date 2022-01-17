@@ -119,7 +119,39 @@
     }
     
         
-    
+       /* media querie */
+
+       /* mobile devices */
+
+       @media (max-width:688px) { 
+           .journey-start{
+               display: grid;
+               grid-template-columns: repeat(1,fr);
+               align-items: flex-start;
+           }
+    /* .journey-detail{
+        margin-left: 10px;} */
+        .first-container{
+            margin-left: -100px;
+            width: 100%;
+        }
+        .journey-photo img{
+            margin-left: 90px;
+            margin-top: 30px;
+        }
+        .collections{
+            display: grid;
+            grid-template-columns: repeat(1,fr);
+            
+            }
+     
+        
+        
+
+           
+       }
+
+
     
     
 
